@@ -4,18 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "dev": "vite",
-    "build": "remix build",
-    "postinstall": "npm install remix vite",
+    "build": "remix build", 
+    "start": "remix run", 
+    "dev": "vite", 
+    "predeploy": "npm run build", 
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "json-server --watch src/jobs.json --port 8000",
     "homepage": "https://jacques8787.github.io/React-Jobs-2024/"
   },
   "dependencies": {
-    "D": "^1.0.0",
     "json-server": "^1.0.0-beta.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
